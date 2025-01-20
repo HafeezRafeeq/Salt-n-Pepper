@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.btn-1,.btn-2{
+    width: 130px;
+    height: 45px;
+}
+
+.btn-1{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+header{
+    padding: 10px 50px;
+}
