@@ -1,19 +1,86 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
 }
 
-.btn-1,.btn-2{
+.btn-1,
+.btn-2 {
     width: 130px;
     height: 45px;
+
 }
 
-.btn-1{
+.btn-1 {
     background-color: transparent;
     border: 1px solid white;
 }
 
-header{
+header {
     padding: 10px 50px;
+}
+
+.f-style {
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+ .nav-font{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+ }
+.b-m{
+    margin: 24px 38px 0px;
+}
+
+.p-f-style {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+h1 {
+    margin-bottom: 70PX 15px 70px;
+    
+}
+
+@font-face {
+    font-family: futurak;
+    src: url(./font/futurak.ttf);
+}
+
+.margin-40{
+    margin-bottom: 40px;
+}
+
+.padding-40{
+    padding: 15px;
+
+}
+
+strong {
+    font-family: futurak;
+    font-size: 3.2rem;
+}
+
+.p {
+    padding-bottom: 40pxd;
+}
+
+.auto {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contaner {
+    padding: 70px 15px 160px;
+}
+
+.contenar-2{
+    padding: 70px;
+}
+
+.d-black{
+    background-color: #0f0f0f;
 }
