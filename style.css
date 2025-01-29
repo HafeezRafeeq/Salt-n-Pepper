@@ -5,11 +5,16 @@
 
 }
 
+body{
+    width: 100%;
+}
 .btn-1,
 .btn-2 {
-    width: 130px;
+    width: 140px;
+    padding: 11px 10px;
     height: 45px;
 
+    align-items: center;
 }
 
 .btn-1 {
@@ -17,32 +22,58 @@
     border: 1px solid white;
 }
 
-header {
-    padding: 10px 50px;
+.arrow{
+    background-color: #ffffff;
+    color: #ff0000;
+    border-radius: 50%;
+    padding: 6px;
 }
 
-.f-style {
+header {
+    padding: 10px 50px;
+    
+}
 
-    font-family: "Poppins", serif;
+
+.h-style {
+    font-family: "apercu", serif;
     font-weight: 400;
     font-size: 2.5rem;
 }
- .nav-font{
+
+.p-f-style {
+    font-family: "apercu", serif;
+    font-weight: 400;
+}
+
+.a-f-style {
+    font-family: "apercu", serif;
+    font-weight: 400;
+    font-size:  0.8rem;
+}
+
+.nav-font {
     font-family: "Poppins", serif;
     font-weight: 400;
- }
-.b-m{
+}
+
+.a-position{
+    position: relative;
+    left: 110px;
+}
+
+.b-m {
     margin: 24px 38px 0px;
 }
 
-.p-f-style {
-    font-family: "Poppins", serif;
-    font-weight: 400;
+.m-top{
+    margin-top: 40px;
 }
+
 
 h1 {
     margin-bottom: 70PX 15px 70px;
-    
+
 }
 
 @font-face {
@@ -50,18 +81,34 @@ h1 {
     src: url(./font/futurak.ttf);
 }
 
-.margin-40{
+@font-face {
+    font-family: apercu;
+    src: url(./font/Apercu\ Light.otf)
+}
+
+@font-face {
+    font-family: b-apercu;
+    src: url(./font/Apercu\ Bold.otf)
+}
+
+.margin-40 {
     margin-bottom: 40px;
 }
 
-.padding-40{
+.padding-40 {
     padding: 15px;
 
 }
 
 strong {
     font-family: futurak;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+    font-weight: 200;
+
+}
+
+.site{
+    margin-bottom: 70px;
 }
 
 .p {
@@ -73,14 +120,104 @@ strong {
     text-align: center;
 }
 
-.contaner {
-    padding: 70px 15px 160px;
+.container {
+    padding: 70px 15px 70px;
+    
 }
 
-.contenar-2{
-    padding: 70px;
+
+.chaild{
+    margin-top: 70px;
 }
 
-.d-black{
+
+.d-black {
     background-color: #0f0f0f;
 }
+
+.contenar-3{
+    padding: 70px 0px 38px;
+    width: 100%;
+
+}
+
+.p-bottun{
+    position: relative;
+    left: 120px;
+}
+
+.l-bottun{
+    position: relative;
+    left: 80px;
+}
+
+
+.a-d{
+
+    font-family: "b-apercu", serif;
+    font-weight: 400;
+    font-size: 0.2rem;
+
+}
+
+.soon{
+
+    font-family: "apercu", serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.con-1{
+    font-family: "apercu", serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.font{
+    font-size: larger;    
+}
+
+.poster-position{
+    position: relative;
+    right: 60px;
+}
+
+
+
+.img-1{
+    text-align: end;
+
+    position: relative;
+    top: 300px;
+    left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+ul{
+    margin-bottom: 20px;
+}
+
+.site{
+     margin-bottom: 24px;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.img-p{
+    position: relative;
+    top: 50px;
+
+}
+
